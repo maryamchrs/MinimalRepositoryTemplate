@@ -4,6 +4,11 @@ This template is designed to streamline the process of setting up a repository o
 
 The template facilitates the creation of essential components such as Use Cases, Repositories, Local Repositories, and Remote Repositories. Each of these components is pre-configured to align with best practices, ensuring that your implementation of the repository pattern is both efficient and maintainable. This minimal yet powerful template is particularly useful for developers looking to enforce a clean separation of concerns in their projects, enhancing code organization and scalability.
 
+## How to use
+1) Open path ~/Library/Developer/Xcode/Templates/File Templates.
+2) Copy folder to File Templates.
+3) Restart XCode.
+
 ## Learn More about Repository design pattern in Swift
 [Repository design pattern in Swift explained using code examples](https://www.avanderlee.com/swift/repository-design-pattern/)
 
