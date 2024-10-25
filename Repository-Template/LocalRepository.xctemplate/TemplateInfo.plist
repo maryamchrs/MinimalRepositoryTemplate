@@ -14,9 +14,9 @@
 			<key>Description</key>
 			<string>LocalRepository</string>
 			<key>Identifier</key>
-			<string>sceneName</string>
+			<string>productName</string>
 			<key>Name</key>
-			<string>New Local Repository Name:</string>
+			<string>Local Repository Name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
@@ -25,26 +25,18 @@
 			<string>text</string>
 		</dict>
 		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___</string>
-			<key>Identifier</key>
-			<string>productName</string>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___LocalRepository</string>
-			<key>Description</key>
-			<string>The local repository name</string>
-			<key>Identifier</key>
-			<string>LocalRepository</string>
 			<key>Name</key>
-			<string>Local Repository Name:</string>
-			<key>Required</key>
-			<true/>
+			<string>Name would be:</string>
+			<key>Description</key>
+			<string>Local Repository Name.</string>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___LocalRepository</string>
+			<key>Identifier</key>
+			<string>localRepoShownName</string>
 			<key>Type</key>
 			<string>static</string>
+			<key>NotPersisted</key>
+			<true/>
 		</dict>
 	</array>
 	<key>Platforms</key>

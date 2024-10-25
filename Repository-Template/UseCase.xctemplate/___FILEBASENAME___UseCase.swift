@@ -6,25 +6,25 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-protocol ___VARIABLE_sceneName___UseCaseProtocol {}
+protocol ___FILEBASENAMEASIDENTIFIER___Protocol {}
 
-final class ___VARIABLE_sceneName___UseCase {
+final class ___FILEBASENAMEASIDENTIFIER___ {
 
-    private let repository: ___VARIABLE_sceneName___RepositoryProtocol
+    private let repository: ___VARIABLE_productName___RepositoryProtocol
 
-    init(repository: ___VARIABLE_sceneName___RepositoryProtocol = ___VARIABLE_sceneName___Repository()
+    init(repository: ___VARIABLE_productName___RepositoryProtocol = ___VARIABLE_productName___Repository()
     ) {
         self.repository = repository
     }
 }
 
-// MARK: ___VARIABLE_sceneName___UseCaseProtocol
-extension ___VARIABLE_sceneName___UseCase: ___VARIABLE_sceneName___UseCaseProtocol {}
+// MARK: ___VARIABLE_productName___UseCaseProtocol
+extension ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {}
 
 // MARK: - Methods
 
 // MARK: Public
-extension ___VARIABLE_sceneName___UseCase {}
+extension ___FILEBASENAMEASIDENTIFIER___ {}
 
 // MARK: Private
-private extension ___VARIABLE_sceneName___UseCase {}
+private extension ___FILEBASENAMEASIDENTIFIER___ {}

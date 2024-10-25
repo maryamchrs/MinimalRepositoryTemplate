@@ -6,9 +6,9 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-protocol ___VARIABLE_sceneName___RemoteRepositoryProtocol {}
+protocol ___FILEBASENAMEASIDENTIFIER___Protocol {}
 
-final class ___VARIABLE_sceneName___RemoteRepository {
+final class ___FILEBASENAMEASIDENTIFIER___ {
     
     // let networkManager: NetworkManagerProtocol!
     
@@ -19,13 +19,13 @@ final class ___VARIABLE_sceneName___RemoteRepository {
      */
 }
 
-// MARK: ___VARIABLE_sceneName___RemoteRepositoryProtocol
-extension ___VARIABLE_sceneName___RemoteRepository: ___VARIABLE_sceneName___RemoteRepositoryProtocol {}
+// MARK: ___FILEBASENAMEASIDENTIFIER___
+extension ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {}
 
 // MARK: - Methods
 
 // MARK: Public
-extension ___VARIABLE_sceneName___RemoteRepository {}
+extension ___FILEBASENAMEASIDENTIFIER___ {}
 
 // MARK: Private
-private extension ___VARIABLE_sceneName___RemoteRepository {}
+private extension ___FILEBASENAMEASIDENTIFIER___ {}

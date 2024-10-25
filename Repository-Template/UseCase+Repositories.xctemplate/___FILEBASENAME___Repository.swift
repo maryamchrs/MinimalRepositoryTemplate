@@ -6,28 +6,28 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-protocol ___VARIABLE_sceneName___RepositoryProtocol {}
+protocol ___FILEBASENAMEASIDENTIFIER___Protocol {}
 
-final class ___VARIABLE_sceneName___Repository {
+final class ___FILEBASENAMEASIDENTIFIER___ {
 
-    private let remoteRepository: ___VARIABLE_sceneName___RemoteRepositoryProtocol
-    private let localRepository: ___VARIABLE_sceneName___LocalRepositoryProtocol
+    private let remoteRepository: ___VARIABLE_productName___RemoteRepositoryProtocol
+    private let localRepository: ___VARIABLE_productName___LocalRepositoryProtocol
 
-    init(remoteRepository: ___VARIABLE_sceneName___RemoteRepositoryProtocol = ___VARIABLE_sceneName___RemoteRepository(),
-         localRepository: ___VARIABLE_sceneName___LocalRepositoryProtocol = ___VARIABLE_sceneName___LocalRepository()
+    init(remoteRepository: ___VARIABLE_productName___RemoteRepositoryProtocol = ___VARIABLE_productName___RemoteRepository(),
+         localRepository: ___VARIABLE_productName___LocalRepositoryProtocol = ___VARIABLE_productName___LocalRepository()
     ) {
         self.remoteRepository = remoteRepository
         self.localRepository = localRepository
     }
 }
 
-// MARK: ___VARIABLE_sceneName___RepositoryProtocol
-extension ___VARIABLE_sceneName___Repository: ___VARIABLE_sceneName___RepositoryProtocol {}
+// MARK: ___FILEBASENAMEASIDENTIFIER___Protocol
+extension ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {}
 
 // MARK: - Methods
 
 // MARK: Public
-extension ___VARIABLE_sceneName___Repository {}
+extension ___FILEBASENAMEASIDENTIFIER___ {}
 
 // MARK: Private
-private extension ___VARIABLE_sceneName___Repository {}
+private extension ___FILEBASENAMEASIDENTIFIER___ {}

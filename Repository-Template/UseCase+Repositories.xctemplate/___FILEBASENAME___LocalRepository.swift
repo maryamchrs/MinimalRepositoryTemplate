@@ -6,15 +6,15 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-protocol ___VARIABLE_sceneName___LocalRepositoryProtocol {
+protocol ___FILEBASENAMEASIDENTIFIER___Protocol {
     // Sample
     // func allUsers() -> [User]?
 }
 
-final class ___VARIABLE_sceneName___LocalRepository {}
+final class ___FILEBASENAMEASIDENTIFIER___ {}
 
-// MARK: ___VARIABLE_sceneName___RepositoryProtocol
-extension ___VARIABLE_sceneName___LocalRepository: ___VARIABLE_sceneName___LocalRepositoryProtocol {
+// MARK: ___FILEBASENAMEASIDENTIFIER___Protocol
+extension ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {
     // Sample
     // func allUsers() -> [User]? {
        // UserDefaults.standard.allUsers
@@ -24,8 +24,7 @@ extension ___VARIABLE_sceneName___LocalRepository: ___VARIABLE_sceneName___Local
 // MARK: - Methods
 
 // MARK: Public
-extension ___VARIABLE_sceneName___LocalRepository {}
+extension ___FILEBASENAMEASIDENTIFIER___ {}
 
 // MARK: Private
-private extension ___VARIABLE_sceneName___LocalRepository {}
-
+private extension ___FILEBASENAMEASIDENTIFIER___ {}
